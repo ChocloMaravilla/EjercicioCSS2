@@ -1,0 +1,13 @@
+.numbers {
+    display: flex;
+    justify-content: center;
+
+}
+input:out-of-range{
+    background-color: rgb(197, 62, 62);
+    border: 2px solid red;
+}
+input:in-range{
+    background-color: greenyellow;
+    border: 2px solid green;
+}
